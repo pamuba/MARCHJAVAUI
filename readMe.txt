@@ -1,0 +1,1 @@
+Using fsPromises.access() to check for the accessibility of a file before calling fsPromises.open() is not recommended. Doing so introduces a race condition, since other processes may change the file's state between the two calls. Instead, user code should open/read/write the file directly and handle the error raised if the file is not accessible.
