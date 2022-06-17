@@ -3,3 +3,27 @@
 3. Angular 3 days
 4. MERN 1 day
 5. MEAN 1 day
+
+jQuery-DOM Manipulation
+Angular-write ls JS do more with the DOM
+ReactJS - for faster updates of the DOM 
+
+
+function component + hooks ==> class component
+
+16.4 hooks 
+
+#props are immutable
+
+class
+name
+id
+dept
+email
+
+#state 
+#event binding
+#method as props
+
+#controlled components
+get set

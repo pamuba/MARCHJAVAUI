@@ -1,0 +1,37 @@
+
+Mounting: instnce is created and inserted into the DOM
+constructor, render, componentDidMount, static getDerivedStateFromProps
+
+Updating : when a component is re rendered as a result in the change of props and state
+static getDerivedStateFromProps, shouldComponentUpdate, render, componentDidUpdate, getSnapshotBeforeUpdate
+
+Unmounting : When a component is being removed from the DOM
+componentWillUnmounbt
+
+Error Handling: error during rendering
+getDerivedStateFromError componentDidCatch
+
+
+* Pure Components:implement shouldComponentUpdate,
+by SC comparisons
+
+Primitive types:
+a=6
+b=6
+
+a SC b  -> True
+
+Complex Types:
+a = [1,2,3]
+b = [1,2,3]
+c = a
+
+a SC b -> False
+
+a SC C -> True
+
+
+* Reg Component: dont implement shouldComponentUpdate,
+by default returns True
+
+* HOC 
