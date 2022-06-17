@@ -17,6 +17,11 @@ import PostList from './components/PostList';
 import HookCounter from './components/HookCounter';
 import HookCounterTwo from './components/HookCounterTwo';
 import HookCounterThree from './components/HookCounterThree';
+import UseEffectDemo from './components/useEffectDemo';
+import HookMouse from './components/HookMouse';
+import MouseContainer from './components/MouseContainer';
+import ComponentC from './components/ComponentC';
+import { UserProvider } from './components/userContext';
 
 function App() {
   return (
@@ -62,7 +67,17 @@ function App() {
        {/* <PostList /> */}
        {/* <HookCounter/> */}
        {/* <HookCounterTwo/> */}
-       <HookCounterThree/>
+       {/* <HookCounterThree/> */}
+
+       {/* <UseEffectDemo/> */}
+
+       {/* <HookMouse /> */}
+
+       {/* <MouseContainer/> */}
+       <UserProvider value="John Smith">
+        <ComponentC />
+       </UserProvider>
+      
       </header>
     </div>
   );

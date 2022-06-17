@@ -35,3 +35,6 @@ a SC C -> True
 by default returns True
 
 * HOC 
+
+
+useEffect : componentDidMount, componentDidUpdate, componentWillUnmount
