@@ -16,6 +16,7 @@ import HoverCounter from './components/HoverCounter';
 import PostList from './components/PostList';
 import HookCounter from './components/HookCounter';
 import HookCounterTwo from './components/HookCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
 
 function App() {
   return (
@@ -60,7 +61,8 @@ function App() {
 
        {/* <PostList /> */}
        {/* <HookCounter/> */}
-       <HookCounterTwo/>
+       {/* <HookCounterTwo/> */}
+       <HookCounterThree/>
       </header>
     </div>
   );
