@@ -1,2 +1,22 @@
 1. Interpolation
 2. Template Reference variable
+3. Two way data binding
+4. One way data binding {{}} - interpolation
+    data from ts file into html
+
+5. Directievs are angular elements
+processed by angular
+created by extending HTML elements
+a. Structural Directives
+if
+switch
+for
+6. pipes
+
+7. Serviecs
+8. Routing
+9. HTTP Calls
+
+10. MEAN(ngForm)
+
+Observables : HTTP  methods
